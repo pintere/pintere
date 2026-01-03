@@ -125,58 +125,43 @@
 								</header>
 								<div class="title">
 									<h2>My story.</h2>
-									<pss>IN A NUTSHELL WHO I AM</pss>
+									<ps>IN A NUTSHELL WHO I AM</ps>
 								</div>
 								<div class="meta">
+									<style>
+									  .image-text-container {
+										 display: flex;
+										 align-items: flex-start;  /* aligns text with top of image */
+										 gap: 20px;                /* space between image and text */
+										 max-width: 900px;         /* optional: keep content from stretching too wide */
+										 margin: 0 auto;           /* center on page */
+  										}
 
-								<a class="image featured"><img src="images/emes (1).jpg" alt=""/></a> 
-								<!-- <div class="row">
-									<div class="column">
-									  <img src="images/emes (1).jpg" alt="Snow" style="width:100%">
-									</div>
-									<div class="column">
-									  <img src="images/emese.JPG" alt="Forest" style="width:100%">
-									</div>
-								</div>-->
-								<style>
-  									.bio {
-										max-width: 700px;        /* keeps text at readable width */
-										font-size: 1rem;
-										line-height: 1.7;        /* space between lines for readability */
-										color: #333;
-									}
+ 										 .image-text-container img {
+ 										   max-width: 300px;         /* control image size */
+ 										   height: auto;             /* keep aspect ratio */
+ 										   border-radius: 8px;       /* optional: rounded corners */
+ 										 }
+									 
+											.image-text-container .text {
+											flex: 1;                  /* let text take remaining space */
+											font-family: 'Helvetica', Arial, sans-serif;
+											line-height: 1.6;
+											color: #333;
+ 										 }
+									</style>
 
-									.bio p {
-										margin-bottom: 1.5rem;   /* space between paragraphs */
-									}
-
-									.bio p strong {
-										color: #000;             /* emphasize key points */
-									}
-
-									.bio p em {
-										font-style: italic;
-									}
-								</style>
-
-								<div class="bio">
+									<div class="image-text-container">
+  									<a class="image featured" href="#"><img src="images/emes (1).jpg" alt=""/></a>
+									  <div class="text">
 									<p>I'm a <strong>curious person</strong> who loves exploring new things - from travel and culinary adventures to simply discovering a new route home from the office. My curiosity extends to my relationships too; <strong>I'm happiest when I'm around people </strong> who share their thoughts, stories, or feelings with me. This is what I'm so passionate about even in my work.</p>
 									<p>Moving to a new country and adapting to a different language - first <strong> studying in Belgium, then relocating to Prague </strong> for love and for a new career opportunity - has been an exciting challenge that taught me a lot about resilience and patience.</p>
 									<p>I recently became a <strong>swimming instructor</strong>, which has become another hobby I enjoy: teaching children and adults to swim to help them feel comfortable in the water.</p>
 									<p>In my free time, besides swimming, I also enjoy <em>yoga, hiking, and experimenting with crafts and painting</em>. Growing up in Hungary and navigating a highly political environment sparked my interest in politics, which continues to be a key focus of mine.</p>
 								</div>
+							</div>
 
-								<!-- <p><b>My story. </b></p> -->	
-								<!-- <p>I'm a curious person who loves exploring new things — from travel and culinary adventures to simply discovering a new route home from the office. My curiosity extends to my relationships too; I'm happiest when I'm around people who share their thoughts, stories, or feelings with me. This is what I'm so passionate about even in my work. <br>Moving to a new country and adapting to a different language — first studying in Belgium, then relocating to Prague for love and a new career path — has been an exciting challenge that taught me a lot about resilience and patience. <br>I recently became a swimming instructor, which has become another hobby I enjoy: teaching children and adults to swim to help them feel comfortable in the water.<br>In my free time, besides swimming, I also enjoy yoga, hiking, and experimenting with crafts and painting. Growing up in Hungary and navigating a highly political environment sparked my interest in politics, which continues to be a key focus of mine. </p> -->
 								<footer>
-									<!--<ul class="actions">
-										<li><a href="single.html" class="button large">Continue Reading</a></li>
-									</ul>
-									<ul class="stats">
-										<li><a href="#">General</a></li>
-										<li><a href="#" class="icon solid fa-heart">28</a></li>
-										<li><a href="#" class="icon solid fa-comment">128</a></li>
-									</ul>-->
 								</footer>
 							</article>
 
